@@ -44,5 +44,6 @@ public class QuanLyThongTinNhanVien {
         DatagramPacket resultPacket= new DatagramPacket(result, result.length,address, port);
         socket.receive(resultPacket);
         socket.close();
+        
     }
 }
